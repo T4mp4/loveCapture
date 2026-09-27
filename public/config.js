@@ -49,4 +49,4 @@ export const STORAGE = {
 };
 
 /** Background used when nothing is stored and the manifest is unavailable. */
-export const DEFAULT_BACKGROUND = 'love-lake';
+export const DEFAULT_BACKGROUND = 'love-lake-camp';
