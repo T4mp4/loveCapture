@@ -243,7 +243,7 @@ setInterval(() => {
 function dismissHintSoon() {
   if (state.hintDismissed) return;
   state.hintDismissed = true;
-  setTimeout(() => scene.hint.classList.add('is-gone'), 2600);
+  setTimeout(() => scene.hint.classList.add('is-gone'), 10000);
 }
 
 function setUpHint() {

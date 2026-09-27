@@ -8,20 +8,20 @@
 /** Cursor identities offered in the dock. Add or remove freely. */
 export const ICONS = [
   '👩',
-  '👨',
   '🧑',
   '👩‍❤️‍👨',
-  '👨‍❤️‍👨',
-  '👩‍❤️‍👩',
+  '💝',
   '🐱',
   '🐻',
   '🦊',
   '🐰',
-  '💝',
+  '👻',
+  '☠️',
+  '😈',
   '🦄',
 ];
 
-export const DEFAULT_ICON = '🧑';
+export const DEFAULT_ICON = '👩';
 
 /** Shown in the 💕 panel until the server tells us the real pool. */
 export const FALLBACK_EMOJI_POOL = ['❤️', '💕', '💖', '✨'];
