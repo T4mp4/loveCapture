@@ -28,8 +28,8 @@ const PORT = Number(process.env.PORT) || 3000;
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
 const TICK_MS = 100; // how often the room is evaluated
-const CAPTURE_MS = 5000; // continuous overlap needed to capture someone
-const LOCK_MS = 3000; // how long a captured player stays frozen
+const CAPTURE_MS = 3000; // continuous overlap needed to capture someone
+const LOCK_MS = 5000; // how long a captured player stays frozen
 const CAPTURE_RADIUS_PX = 48; // how close two cursors must be to count as overlapping
 
 const MAX_MESSAGE_BYTES = 512; // reject anything bigger than this
@@ -39,22 +39,68 @@ const ICON_MAX_CODEPOINTS = 12; // long enough for a ZWJ couple emoji
 const DEFAULT_ICON = '\u{1F9D1}'; // 🧑
 const JOIN_TIMEOUT_MS = 15000; // a socket that never introduces itself is dropped
 
+// const EMOJI_POOL = [
+//   '\u2764\uFE0F',
+//   '\u{1F495}',
+//   '\u{1F496}',
+//   '\u{1F497}',
+//   '\u{1F493}',
+//   '\u{1F498}',
+//   '\u{1F970}',
+//   '\u{1F618}',
+//   '\u{1F60D}',
+//   '\u{1FAF6}',
+//   '\u{1F48B}',
+//   '\u2728',
+//   '\u{1F338}',
+//   '\u{1F979}',
+// ];
+
 const EMOJI_POOL = [
-  '\u2764\uFE0F',
-  '\u{1F495}',
-  '\u{1F496}',
-  '\u{1F497}',
-  '\u{1F493}',
-  '\u{1F498}',
-  '\u{1F970}',
-  '\u{1F618}',
-  '\u{1F60D}',
-  '\u{1FAF6}',
-  '\u{1F48B}',
-  '\u2728',
-  '\u{1F338}',
-  '\u{1F979}',
+  '😜',
+  '😀',
+  '😆',
+  '🥶',
+  '🥰',
+  '😍',
+  '🥳',
+  '🤭',
+  '🤯',
+  '🥰',
+  '😘',
+  '😍',
+  '❤️',
+  '💕',
+  '💖',
+  '💗',
+  '💓',
+  '💘',
+  '💞',
+  '🌸',
+  '🌷',
+  '💐',
+  '💋',
+  '💥',
+  '🔥',
+  '🎉',
+  '💯',
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ---------------------------------------------------------------- static files
 

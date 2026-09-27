@@ -12,14 +12,14 @@ const MANIFEST_URL = './assets/backgrounds/backgrounds.json';
 
 const DOCK_ITEMS = [
   { key: 'icon', glyph: '👤', label: 'My Icon' },
-  { key: 'background', glyph: '🎨', label: 'Background' },
-  { key: 'emoji', glyph: '💕', label: 'Emoji' },
+  { key: 'background', glyph: '🌄', label: 'Background' },
+  { key: 'emoji', glyph: '🎯', label: 'Emoji' },
   // { key: 'about', glyph: 'ℹ️', label: 'About' },
 ];
 
-const PANEL_HIDE_MS = 200;
-const HOVER_OPEN_MS = 160; // a beat of intent before a hover opens a panel
-const DOCK_CLOSE_MS = 220; // grace period when the pointer leaves the dock
+const PANEL_HIDE_MS = 300;
+const HOVER_OPEN_MS = 150; // a beat of intent before a hover opens a panel
+const DOCK_CLOSE_MS = 250; // grace period when the pointer leaves the dock
 
 /**
  * Strip anything that could break out of a CSS url() or point somewhere odd.

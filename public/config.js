@@ -17,8 +17,8 @@ export const ICONS = [
   '🐻',
   '🦊',
   '🐰',
-  '❤️',
-  '✨',
+  '💝',
+  '🦄',
 ];
 
 export const DEFAULT_ICON = '🧑';
