@@ -1,0 +1,10 @@
+# dependencies — the host installs these from package.json
+node_modules/
+
+# logs and local editor noise
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,21 @@
+{
+  "name": "little-room",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny shared room on the internet where two people's cursors can find each other.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "smoke": "node test/smoke.js",
+    "browser-test": "node test/browser.js",
+    "partner": "node test/fake-cursor.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "license": "MIT"
+}

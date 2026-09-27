@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#2a1230" />
+    <title>little room</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- The whole viewport is the room. There is no page layout. -->
+    <div class="bg" id="bg"></div>
+    <div class="bg-scrim" id="bg-scrim"></div>
+
+    <div class="cursors" id="cursors" aria-hidden="true"></div>
+    <div class="effects" id="effects" aria-hidden="true"></div>
+
+    <p class="hint" id="hint">move around and find someone 💕</p>
+
+    <div class="status" id="status" data-state="connecting" role="status">
+      <span class="status__dot"></span>
+      <span class="status__text" id="status-text"></span>
+    </div>
+
+    <div class="dockbar" id="dockbar">
+      <div class="panel" id="panel" hidden></div>
+      <nav class="dock" id="dock" aria-label="Room controls"></nav>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

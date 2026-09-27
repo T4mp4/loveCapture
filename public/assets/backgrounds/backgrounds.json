@@ -1,0 +1,16 @@
+{
+  "backgrounds": [
+    {
+      "id": "love-lake",
+      "name": "Love Lake",
+      "file": "/assets/backgrounds/Love-Lake.png",
+      "overlay": 0.7
+    },
+    {
+      "id": "love-lake-camp",
+      "name": "Love Lake Camp",
+      "file": "/assets/backgrounds/Love-Lake-Camp.png",
+      "overlay": 0.18
+    }
+  ]
+}
